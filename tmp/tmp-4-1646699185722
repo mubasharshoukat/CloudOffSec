@@ -1,0 +1,90 @@
+Node JS Curriculum
+Section-1
+1-The Story of NodeJS
+2-What is V8, exactly?
+3-What is NodeJS exactly?
+4-Anatomy of a NodeJS Application
+5-NodeJS vs the Browser
+Section-2: Building a RESTful API
+1-Section Overview
+2-Basic Scaffolding
+3-Starting a Server
+4-Parsing Request Paths
+5-Parsing HTTP Methods
+6-Parsing Query Strings
+7-Parsing Headers
+8-Parsing Payloads
+9-Routing Requests
+10-Returning JSON
+11-Adding Configuration
+12-Adding HTTPS Support
+13-Service 1:/ping
+14-Storing Data
+15-Service 2:/users
+16-Service 3:/tokens
+17-Service 4:/checks
+18-Connecting to an API
+19-Background Workers
+20-Logging to files
+21-Section Review
+
+Section-3: Building a Web App GUI
+1-Section Overview
+2-Refactoring for a GUI
+3-Using Templates
+4-Serving Static Assets
+5-Making AJAX Requests
+6-Page 1:Index
+7-Page-2:Create an Account
+8-Page-3:Create a Session
+9-Page-4:Deleted Session
+10-Page-5:Edit Account
+11-Page-6:Deleted Account
+12-Page-7:Create a Check
+13-Page-8:Dashboard
+14-Page-9:Edit a Check
+15-Section Review
+
+Section-4:Building a CLI
+1-Section Overview
+2-Adding a CLI
+3-Handling Events
+4-Command 1:Exit
+5-Command 2:Man/Helo
+6-Command 3:Stats
+7-Command 4:List Users
+8-Command 5:More User Info
+9-Command 6:List Checks
+10-Command 7:More Check Info
+11-Command 8:List Logs
+12-Command 9:More Log Info
+13-Section Review
+
+Section-5:Gaining Stability
+1-Section Overview
+2-Creating Errors
+3-Using the Debugger
+4-Linting with "Strict"
+5-Adding a Test Runner
+6-Adding Unit Tests
+7-Adding API Tests
+8-Section Review
+
+Section-6:Gaining Performance
+1-Section Overview
+2-Refactoring for Performance
+3-Using Performance Hooks
+4-Using a Cluster
+5-Using Child Processes
+6-Section Review
+
+Section-7:Loose Ends
+1-Section Overview
+2-HTTP2
+3-VM
+4-UDP/Datagram
+5-Net
+6-TLS/SSL
+7-REPL
+8-Async Hooks
+9-Section Review
