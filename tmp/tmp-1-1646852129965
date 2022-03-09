@@ -1,0 +1,44 @@
+#include<iostream>
+using namespace std;
+
+int hash(int key,int size){
+	
+	return key%size;
+	
+}
+
+
+void fillData(int a[],int size){
+	int count=0;
+	int userChoice=1;
+	int data;
+	while(count<13 && userChoice!=0){
+		cout<<"Enter Data:"<<endl;
+		cin>>data;
+		int index=hash(data,size);
+		while(a[index]!=0){
+			index=hash(index+1,size);
+		}
+		
+		a[index]=data;
+		cout<<"Enter enter 0 to end:"<<endl;
+		cin>>userChoice;	
+	}
+}
+
+int main(){
+	int size=13;
+	int a[size];
+	
+	for(int i=0;i<size;i++){
+		a[i]=0;
+	}
+	fillData(a,size);
+	
+	for(int i=0;i<size;i++){
+		cout<<a[i]<<" ";
+	}
+	
+	cout<<endl;
+	return 0;
+}
