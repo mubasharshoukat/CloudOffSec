@@ -12,7 +12,7 @@ import Profile from '../body/profile/Profile'
 import EditUser from '../body/profile/EditUser'
 
 import Home from '../body/home/Home'
-import {Hunting} from './hunting/Hunting'
+import Hunting from './hunting/AddFile'
 
 
 

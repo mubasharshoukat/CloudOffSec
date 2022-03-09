@@ -9,13 +9,14 @@ const fileSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    file:{
-        data: Buffer,
-        type: String
+    fileImage:{
+        type: [String],
+        required: true
     }
     
 }, {
     timestamps: true
 })
 
-module.exports = mongoose.model("Files", fileSchema)
+const Files = mongoose.model("Files", fileSchema);
+module.exports = Files;

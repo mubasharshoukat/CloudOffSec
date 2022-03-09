@@ -30,7 +30,8 @@
     "multer": "^1.4.4",
     "node-fetch": "^2.6.1",
     "nodemailer": "^6.4.14",
-    "react-toastify": "^8.2.0"
+    "react-toastify": "^8.2.0",
+    "styled-components": "^5.3.3"
   },
   "keywords": [],
   "author": "",
